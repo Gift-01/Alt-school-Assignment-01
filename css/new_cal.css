@@ -1,0 +1,67 @@
+.calc-wrapper {
+  border:1px solid;
+  width:60%;
+  margin:auto;
+  min-width:300px;
+  height:500px;
+  display:flex;
+  flex-direction:column;
+  border-radius:10px;
+  background-color:#000000;
+  color:white;
+  max-width:400px;
+  margin-top:100px;
+  
+  }
+
+.screen { 
+  flex-grow:3;
+  padding:5px;
+  min-height:150px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.buttons{
+  flex-grow:7;
+  padding:5px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+}
+
+.button-wrapper{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+button{
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  font-size:20px;
+  color:#2626f2;
+  background-color:black;
+}
+
+.data-input{
+  width:-webkit-fill-available;
+  height:70px;
+  font-size:xx-large;
+  border-radius:10px;
+  background:none:
+  border:none;
+}
+
+.result, .history, .data-input {
+  margin:0;
+  text-align:end;
+}
+
+.operator{
+  background-color: Azure;
+}
+
+
+

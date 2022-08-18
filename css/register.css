@@ -1,0 +1,28 @@
+h2,p{
+  text-align:center;
+  margin-bottom:20px;
+  margin-top:10px
+}
+.container{
+  text-align:center;
+   width: max-content;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+  background: #f1f4f6;
+  margin-top: 120px;
+}
+.input-box{
+  width:300px;
+  height:20px;
+  border-radius:7px;
+  margin-bottom:20px;
+  margin-top:10px;
+}
+.sub{
+  background-color: black;
+  padding:5px;
+  color: white;
+  margin:3px;
+  border: none;
+}

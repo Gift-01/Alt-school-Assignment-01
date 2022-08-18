@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Registration Form</title>
+    <link href="/css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/register.css" rel="stylesheet" type="text/css"/>
+   <link href="/css/header.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link" href="/index.html">About Me</a></li>
+			<li><a class="nav-link" href="/contact.html">Contact</a></li>
+			<li><a class="nav-link active" href="/register.html">Register</a></li>
+       <li><a class="nav-link" href="/login.html">Login</a></li>
+          <li><a class="nav-link" href="./select_calculator.html">Calculator</a></li>
+		 </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+    <h2>Registration Form</h2>
+  <p><em>Create your account.It's free and only take a minute.</em></p>
+    <div>
+  <form>
+    <label for="first_name">First Name:</label><br>
+    <input type="text" id="first_name" name="first_name" class="input-box"/><br>
+    <label for="last_name">Last Name:</label><br>
+    <input type="text" id="last_name" name="last_name" class="input-box"/><br>
+    <label for="phone">Phone number:</label><br>
+    <input type="tel" id="phone" name="phone" class="input-box"/><br>
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+      <option value="" disabled selected>Select Gender</option>
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+      <option value="non_binary">Non-Binary</option>
+    </select><br><br>
+    <label for="country">Country:</label><br>
+    <input type="text" id="country" name="country" class="input-box"/><br>
+    <label for="state/province">State/Province:</label><br>
+    <input type="text" id="state/province" name="state/province" class="input-box"/><br>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" class="input-box"/><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" class="input-box"/><br>
+    <label for="confirm_password">Confirm Password:</label><br>
+    <input type="password" id="confirm_password" name="confirm_password" class="input-box"/><br><br>
+    <input type="submit" value="submit" class="sub"/>
+    </form>
+  </div>
+    </div>
+</body>
+</html>

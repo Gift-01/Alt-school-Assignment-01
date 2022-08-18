@@ -1,0 +1,21 @@
+div{
+  color:black;
+  background:white;
+  text-align:center;
+}
+.sign{
+  background-color: black;
+  padding:5px;
+  color: white;
+  margin:3px;
+  border: none;
+}
+
+.container {
+  width: max-content;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+  background: #f1f4f6;
+  margin-top: 120px;
+}
